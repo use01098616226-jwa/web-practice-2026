@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3주차 과제</title>
+    <meta name="description" content="웹 프로그래밍 3주차 실습 과제물입니다.">
+    <meta property="og:title" content="3주차 실습 과제">
+    <meta property="og:url" content="https://www.jejunu.ac.kr/">
+</head>
+<body>
+    <header>
+        <h1>3주차 실습 과제</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>대표 이미지</h2>
+            <img src="https://item.kakaocdn.net/do/fcc47dd6fb646060de419faa6cd94683cf5424e6c19751dbb6e59500cd4ef871" alt="노란색 오리 캐릭터 카카오프렌즈 튜브의 모습">
+        </section>
+
+        <section>
+            <h2>문의하기 폼</h2>
+            <form action="">
+                <fieldset>
+                    <legend>문의 정보 입력</legend>
+                    <div>
+                        <label for="userName">이름</label>
+                        <input type="text" id="userName" name="userName">
+                    </div>
+
+                    <div>
+                        <label for="userEmail">이메일</label>
+                        <input type="email" id="userEmail" name="userEmail">
+                    </div>
+
+                    <div>
+                        <label for="inquiryType">문의유형</label>
+                        <select name="inquiryType" id="inquiryType">
+                    </div>
+                    <div>
+                        <option value="delivery">배송</option>
+                        <option value="order" selected>주문</option>
+                        <option value="other">기타</option>
+                    </div>
+                    </select>
+                    <div>
+                        <label for="inquiryDesc">문의내용</label>
+                        <textarea name="inquiryDesc" id="inquiryDesc" rows="5" cols="50">안녕하세요. 문의드립니다.</textarea>
+                        <button type="submit">보내기</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 좌은석. All rights reserved.</p>
+        <p>이메일: <a href="mailto:student@jejunu.ac.kr">student@jejunu.ac.kr</a></p>
+    </footer>
+</body>
+</html>
